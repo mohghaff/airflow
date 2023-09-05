@@ -1,0 +1,210 @@
+[2023-09-05T12:17:57.604+0000] {processor.py:157} INFO - Started process (PID=29894) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:17:57.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:17:57.610+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:17:57.609+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:17:57.673+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:17:57.804+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:17:57.804+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:17:57.925+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:17:57.915+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:17:58.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.450 seconds
+[2023-09-05T12:18:28.324+0000] {processor.py:157} INFO - Started process (PID=30007) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:18:28.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:18:28.328+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:18:28.328+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:18:28.351+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:18:28.389+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:18:28.389+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:18:28.418+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:18:28.418+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:18:28.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.131 seconds
+[2023-09-05T12:18:59.254+0000] {processor.py:157} INFO - Started process (PID=30059) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:18:59.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:18:59.255+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:18:59.255+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:18:59.266+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:18:59.291+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:18:59.290+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:18:59.317+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:18:59.316+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:18:59.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.089 seconds
+[2023-09-05T12:19:29.621+0000] {processor.py:157} INFO - Started process (PID=30111) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:19:29.623+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:19:29.624+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:19:29.624+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:19:29.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:19:29.673+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:19:29.673+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:19:29.708+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:19:29.707+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:19:29.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.118 seconds
+[2023-09-05T12:20:00.448+0000] {processor.py:157} INFO - Started process (PID=30163) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:20:00.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:20:00.455+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:20:00.453+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:20:00.481+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:20:00.540+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:20:00.539+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:20:00.601+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:20:00.601+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:20:00.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.200 seconds
+[2023-09-05T12:20:31.357+0000] {processor.py:157} INFO - Started process (PID=30215) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:20:31.358+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:20:31.359+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:20:31.359+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:20:31.373+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:20:31.406+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:20:31.405+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:20:31.437+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:20:31.436+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:20:31.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.116 seconds
+[2023-09-05T12:21:02.255+0000] {processor.py:157} INFO - Started process (PID=30267) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:21:02.257+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:21:02.259+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:21:02.258+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:21:02.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:21:02.314+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:21:02.313+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:21:02.355+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:21:02.354+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:21:02.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.132 seconds
+[2023-09-05T12:21:32.945+0000] {processor.py:157} INFO - Started process (PID=30319) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:21:32.947+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:21:32.948+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:21:32.947+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:21:32.969+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:21:33.007+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:21:33.007+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:21:33.045+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:21:33.044+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:21:33.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.133 seconds
+[2023-09-05T12:22:03.856+0000] {processor.py:157} INFO - Started process (PID=30371) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:22:03.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:22:03.859+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:22:03.859+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:22:03.875+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:22:03.908+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:22:03.907+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:22:03.941+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:22:03.941+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:22:03.965+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.116 seconds
+[2023-09-05T12:22:34.702+0000] {processor.py:157} INFO - Started process (PID=30424) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:22:34.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:22:34.704+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:22:34.704+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:22:34.722+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:22:34.755+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:22:34.755+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:22:34.795+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:22:34.795+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:22:34.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.124 seconds
+[2023-09-05T12:23:05.416+0000] {processor.py:157} INFO - Started process (PID=30476) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:23:05.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:23:05.419+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:23:05.419+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:23:05.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:23:05.469+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:23:05.468+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:23:05.508+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:23:05.507+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:23:05.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.126 seconds
+[2023-09-05T12:23:35.822+0000] {processor.py:157} INFO - Started process (PID=30591) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:23:35.823+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:23:35.824+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:23:35.824+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:23:35.839+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:23:35.874+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:23:35.873+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:23:35.909+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:23:35.909+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:23:35.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.118 seconds
+[2023-09-05T12:24:05.993+0000] {processor.py:157} INFO - Started process (PID=30643) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:24:05.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:24:05.996+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:24:05.995+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:24:06.012+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:24:06.040+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:24:06.039+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:24:06.071+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:24:06.071+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:24:06.094+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.104 seconds
+[2023-09-05T12:24:36.857+0000] {processor.py:157} INFO - Started process (PID=30695) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:24:36.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:24:36.858+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:24:36.858+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:24:36.869+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:24:36.895+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:24:36.895+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:24:36.921+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:24:36.921+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:24:36.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.087 seconds
+[2023-09-05T12:25:07.555+0000] {processor.py:157} INFO - Started process (PID=30747) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:25:07.557+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:25:07.558+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:25:07.557+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:25:07.572+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:25:07.602+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:25:07.602+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:25:07.641+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:25:07.641+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:25:07.665+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.114 seconds
+[2023-09-05T12:25:38.196+0000] {processor.py:157} INFO - Started process (PID=30799) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:25:38.197+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:25:38.198+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:25:38.198+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:25:38.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:25:38.235+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:25:38.235+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:25:38.264+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:25:38.264+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:25:38.291+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.098 seconds
+[2023-09-05T12:26:08.886+0000] {processor.py:157} INFO - Started process (PID=30851) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:26:08.887+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:26:08.888+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:26:08.888+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:26:08.899+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:26:08.925+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:26:08.924+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:26:08.955+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:26:08.955+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:26:08.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.094 seconds
+[2023-09-05T12:26:39.544+0000] {processor.py:157} INFO - Started process (PID=30903) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:26:39.546+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:26:39.547+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:26:39.546+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:26:39.563+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:26:39.596+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:26:39.595+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:26:39.634+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:26:39.634+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:26:39.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.124 seconds
+[2023-09-05T12:27:10.282+0000] {processor.py:157} INFO - Started process (PID=30956) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:27:10.283+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:27:10.284+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:27:10.284+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:27:10.299+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:27:10.331+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:27:10.330+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:27:10.366+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:27:10.366+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:27:10.393+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.115 seconds
+[2023-09-05T12:27:41.004+0000] {processor.py:157} INFO - Started process (PID=31008) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:27:41.006+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:27:41.007+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:27:41.007+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:27:41.022+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:27:41.052+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:27:41.052+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:27:41.084+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:27:41.084+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:27:41.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.108 seconds
+[2023-09-05T12:28:11.703+0000] {processor.py:157} INFO - Started process (PID=31060) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:28:11.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:28:11.705+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:28:11.704+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:28:11.719+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:28:11.752+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:28:11.752+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:28:11.794+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:28:11.793+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:28:11.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.124 seconds
+[2023-09-05T12:28:42.119+0000] {processor.py:157} INFO - Started process (PID=31240) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:28:42.121+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:28:42.122+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:28:42.122+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:28:42.141+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:28:42.173+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:28:42.172+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:28:42.205+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:28:42.204+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:28:42.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.116 seconds
+[2023-09-05T12:29:12.903+0000] {processor.py:157} INFO - Started process (PID=31292) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:29:12.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:29:12.905+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:29:12.905+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:29:12.922+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:29:12.959+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:29:12.958+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:29:12.993+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:29:12.993+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:29:13.016+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.118 seconds
+[2023-09-05T12:29:43.589+0000] {processor.py:157} INFO - Started process (PID=31351) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:29:43.591+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:29:43.593+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:29:43.592+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:29:43.611+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:29:43.648+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:29:43.647+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:29:43.685+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:29:43.685+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:29:43.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.133 seconds
+[2023-09-05T12:30:14.440+0000] {processor.py:157} INFO - Started process (PID=31403) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:30:14.440+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:30:14.441+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:30:14.441+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:30:14.457+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:30:14.488+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:30:14.488+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:30:14.521+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:30:14.521+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:30:14.550+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.114 seconds
+[2023-09-05T12:30:45.172+0000] {processor.py:157} INFO - Started process (PID=31455) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:30:45.174+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:30:45.175+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:30:45.174+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:30:45.188+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:30:45.213+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:30:45.213+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:30:45.242+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:30:45.241+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:30:45.263+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.095 seconds
+[2023-09-05T12:31:15.820+0000] {processor.py:157} INFO - Started process (PID=31507) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:31:15.820+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:31:15.821+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:31:15.821+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:31:15.841+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:31:15.868+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:31:15.867+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:31:15.897+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:31:15.897+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:31:15.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.102 seconds
+[2023-09-05T12:31:46.455+0000] {processor.py:157} INFO - Started process (PID=31559) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:31:46.456+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:31:46.457+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:31:46.457+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:31:46.468+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:31:46.491+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:31:46.491+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:31:46.519+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:31:46.519+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:31:46.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.088 seconds
+[2023-09-05T12:32:17.123+0000] {processor.py:157} INFO - Started process (PID=31611) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:32:17.124+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:32:17.125+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:32:17.125+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:32:17.140+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:32:17.167+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:32:17.167+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:32:17.197+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:32:17.197+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:32:17.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.102 seconds
+[2023-09-05T12:32:47.642+0000] {processor.py:157} INFO - Started process (PID=31664) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:32:47.643+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2023-09-05T12:32:47.644+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:32:47.644+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:32:47.657+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dag_with_cron_v03']) retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2023-09-05T12:32:47.685+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:32:47.684+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-09-05T12:32:47.717+0000] {logging_mixin.py:151} INFO - [2023-09-05T12:32:47.716+0000] {dag.py:3677} INFO - Setting next_dagrun for dag_with_cron_v03 to 2023-01-03T03:00:00+00:00, run_after=2023-01-10T03:00:00+00:00
+[2023-09-05T12:32:47.741+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.102 seconds

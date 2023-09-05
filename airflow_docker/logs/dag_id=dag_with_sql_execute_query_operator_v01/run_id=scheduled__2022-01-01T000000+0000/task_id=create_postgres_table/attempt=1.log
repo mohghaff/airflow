@@ -1,0 +1,88 @@
+[2023-09-04T05:41:21.848+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_sql_execute_query_operator_v01.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2023-09-04T05:41:21.859+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_sql_execute_query_operator_v01.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2023-09-04T05:41:21.860+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-09-04T05:41:21.878+0000] {taskinstance.py:1382} INFO - Executing <Task(SQLExecuteQueryOperator): create_postgres_table> on 2022-01-01 00:00:00+00:00
+[2023-09-04T05:41:21.885+0000] {standard_task_runner.py:57} INFO - Started process 3013 to run task
+[2023-09-04T05:41:21.888+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dag_with_sql_execute_query_operator_v01', 'create_postgres_table', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmphf_evke6']
+[2023-09-04T05:41:21.891+0000] {standard_task_runner.py:85} INFO - Job 49: Subtask create_postgres_table
+[2023-09-04T05:41:21.946+0000] {task_command.py:415} INFO - Running <TaskInstance: dag_with_sql_execute_query_operator_v01.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [running]> on host 10bdc2e98230
+[2023-09-04T05:41:22.042+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='coder2j' AIRFLOW_CTX_DAG_ID='dag_with_sql_execute_query_operator_v01' AIRFLOW_CTX_TASK_ID='create_postgres_table' AIRFLOW_CTX_EXECUTION_DATE='2022-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-01-01T00:00:00+00:00'
+[2023-09-04T05:41:22.043+0000] {sql.py:274} INFO - Executing: 
+            create table if not exists dag_runs (
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            )
+        
+[2023-09-04T05:41:22.044+0000] {connection.py:471} ERROR - Unable to retrieve connection from secrets backend (EnvironmentVariablesBackend). Checking subsequent secrets backend.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 466, in get_connection_from_secrets
+    conn = secrets_backend.get_connection(conn_id=conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/secrets/base_secrets.py", line 96, in get_connection
+    value = self.get_conn_value(conn_id=conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/secrets/environment_variables.py", line 51, in get_conn_value
+    return os.environ.get(CONN_ENV_PREFIX + conn_id.upper())
+AttributeError: 'NoneType' object has no attribute 'upper'
+[2023-09-04T05:41:22.062+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 275, in execute
+    hook = self.get_db_hook()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 186, in get_db_hook
+    return self._hook
+  File "/usr/local/lib/python3.8/functools.py", line 967, in __get__
+    val = self.func(instance)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 148, in _hook
+    conn = BaseHook.get_connection(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `None` isn't defined
+[2023-09-04T05:41:22.067+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_sql_execute_query_operator_v01, task_id=create_postgres_table, execution_date=20220101T000000, start_date=20230904T054121, end_date=20230904T054122
+[2023-09-04T05:41:22.082+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 49 for task create_postgres_table (The conn_id `None` isn't defined; 3013)
+[2023-09-04T05:41:22.101+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-09-04T05:41:22.134+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-09-04T05:44:34.702+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_sql_execute_query_operator_v01.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2023-09-04T05:44:34.715+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_sql_execute_query_operator_v01.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2023-09-04T05:44:34.715+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-09-04T05:44:34.734+0000] {taskinstance.py:1382} INFO - Executing <Task(SQLExecuteQueryOperator): create_postgres_table> on 2022-01-01 00:00:00+00:00
+[2023-09-04T05:44:34.741+0000] {standard_task_runner.py:57} INFO - Started process 3284 to run task
+[2023-09-04T05:44:34.744+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dag_with_sql_execute_query_operator_v01', 'create_postgres_table', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmp_a94ka8g']
+[2023-09-04T05:44:34.746+0000] {standard_task_runner.py:85} INFO - Job 65: Subtask create_postgres_table
+[2023-09-04T05:44:34.804+0000] {task_command.py:415} INFO - Running <TaskInstance: dag_with_sql_execute_query_operator_v01.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [running]> on host 10bdc2e98230
+[2023-09-04T05:44:34.903+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='coder2j' AIRFLOW_CTX_DAG_ID='dag_with_sql_execute_query_operator_v01' AIRFLOW_CTX_TASK_ID='create_postgres_table' AIRFLOW_CTX_EXECUTION_DATE='2022-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-01-01T00:00:00+00:00'
+[2023-09-04T05:44:34.904+0000] {sql.py:274} INFO - Executing: 
+            create table if not exists dag_runs (
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            )
+        
+[2023-09-04T05:44:34.905+0000] {connection.py:471} ERROR - Unable to retrieve connection from secrets backend (EnvironmentVariablesBackend). Checking subsequent secrets backend.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 466, in get_connection_from_secrets
+    conn = secrets_backend.get_connection(conn_id=conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/secrets/base_secrets.py", line 96, in get_connection
+    value = self.get_conn_value(conn_id=conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/secrets/environment_variables.py", line 51, in get_conn_value
+    return os.environ.get(CONN_ENV_PREFIX + conn_id.upper())
+AttributeError: 'NoneType' object has no attribute 'upper'
+[2023-09-04T05:44:34.927+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 275, in execute
+    hook = self.get_db_hook()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 186, in get_db_hook
+    return self._hook
+  File "/usr/local/lib/python3.8/functools.py", line 967, in __get__
+    val = self.func(instance)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 148, in _hook
+    conn = BaseHook.get_connection(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `None` isn't defined
+[2023-09-04T05:44:34.932+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_sql_execute_query_operator_v01, task_id=create_postgres_table, execution_date=20220101T000000, start_date=20230904T054434, end_date=20230904T054434
+[2023-09-04T05:44:34.948+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 65 for task create_postgres_table (The conn_id `None` isn't defined; 3284)
+[2023-09-04T05:44:34.957+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-09-04T05:44:34.993+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
